@@ -1,3 +1,6 @@
+Introduction
+############
+
 A small skeleton for Brunch.io including:
 
 - CoffeeScript
@@ -8,4 +11,21 @@ A small skeleton for Brunch.io including:
 - Less
 
 
-Structure: app, vendor/js and vendor/css
+Structure
+#########
+```
+.
+├── app
+│   ├── assets
+│   │   ├── fonts # -> font awesome symlink
+│   │   └── index.html
+│   ├── index.coffee
+│   └── styles
+├── bower.json
+├── brunch-config.coffee
+├── package.json
+├── README.md
+└── vendor
+    ├── css
+    └── js
+```
