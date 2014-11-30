@@ -1,5 +1,4 @@
-Introduction
-############
+# Introduction (LACR)
 
 A small skeleton for Brunch.io including:
 
@@ -9,16 +8,19 @@ A small skeleton for Brunch.io including:
 - LoDash 2.4.1
 - FontAwesome 4.2.0
 - Less
+- Brunch AutoReload
 
+*Tip: LACR stands for Less Awesome CoffeeScript ReactJS*
 
-Structure
-#########
+# Documentation
+
+## Structure
 ```
 .
 ├── app
 │   ├── assets
-│   │   ├── fonts # -> font awesome symlink
-│   │   └── index.html
+│   │   ├── fonts # -> font awesome symlink
+│   │   └── index.html
 │   ├── index.coffee
 │   └── styles
 ├── bower.json
@@ -29,3 +31,31 @@ Structure
     ├── css
     └── js
 ```
+## Installation
+
+- If you don't have brunch already: **npm install -g brunch**
+
+- Create the new project from this skeleton:
+```
+brunch new https://github.com/kursion/brunch-skeleton-lacr
+```
+
+## Usage
+
+
+- Just run: **brunch watch**
+
+- Then go (with your browser) to *file:///[YOUR PROJECT PATCH]/compiled/index.html* or if you are using a server (like nodejs or whatever), open the URL (eg: http://127.0.0.1).
+
+### More
+
+Check the source of index.html (in app/assets/) and index.coffee (in app/) to see how the project is initialized and how it works :)
+
+### Build
+
+- **brunch build** for developpement purpose
+
+- **brunch build** for production deployement.
+
+## Contributions
+Author of the skeleton: Yves Lange
