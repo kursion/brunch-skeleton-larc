@@ -1,0 +1,29 @@
+{
+  "author": "Yves Lange",
+  "name": "brunch-coffee",
+  "description": "Brunch with coffeescript and less",
+  "readme": "Brunch with coffeescript and less",
+  "version": "1.0.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "brunch": "~1.7.19",
+    "javascript-brunch": "~1.7.0",
+    "coffee-script-brunch": "~1.8.0",
+    "css-brunch": "~1.7.0",
+    "uglify-js-brunch": "~1.7.0",
+    "clean-css-brunch": "~1.7.0",
+    "less-brunch": "~1.7.0",
+    "yeti": "~0.2.23",
+    "bower": "~1.3.8",
+    "yaml-brunch": "~1.0.1"
+  },
+  "devDependencies": {
+    "coffeelint": "~1.5.1",
+    "auto-reload-brunch": ">= 1.0 < 1.8"
+  }
+}
+
