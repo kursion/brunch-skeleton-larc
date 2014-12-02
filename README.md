@@ -1,4 +1,4 @@
-# Introduction (LACR)
+# Introduction (LARC)
 
 A small skeleton for Brunch.io including:
 
@@ -10,7 +10,7 @@ A small skeleton for Brunch.io including:
 - Less
 - Brunch AutoReload
 
-*Tip: LACR stands for Less Awesome CoffeeScript ReactJS*
+*Tip: LARC stands for Less Awesome ReactJS CoffeeScript*
 
 # Documentation
 
@@ -37,7 +37,7 @@ A small skeleton for Brunch.io including:
 
 - Create the new project from this skeleton:
 ```
-brunch new https://github.com/kursion/brunch-skeleton-lacr
+brunch new https://github.com/kursion/brunch-skeleton-larc
 ```
 
 ## Usage

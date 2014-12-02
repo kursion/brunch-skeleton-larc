@@ -1,6 +1,6 @@
 {
-  "name": "brunch-coffee",
-  "version": "0.0.0",
+  "name": "brunch-skeleton-larc",
+  "version": "1.0.1",
   "dependencies": {
     "lodash": "~2.4.1",
     "jquery": "~2.1.1",

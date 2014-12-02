@@ -1,13 +1,13 @@
 {
   "author": "Yves Lange",
-  "name": "brunch-coffee",
-  "description": "Brunch with coffeescript and less",
-  "readme": "Brunch with coffeescript and less",
-  "version": "1.0.0",
+  "name": "brunch-skeleton-larc",
+  "description": "Less awesome reactive coffee",
+  "readme": "Brunch with CoffeeScript, LESS and ReactJS",
+  "version": "1.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kursion/brunch-skeleton-larc"
   },
   "dependencies": {
     "brunch": "~1.7.19",
