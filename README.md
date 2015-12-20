@@ -35,9 +35,11 @@ A small skeleton for Brunch.io including:
 
 - If you don't have brunch already: **npm install -g brunch**
 
+- If you don't have bower already: **npm install -g bower**
+
 - Create the new project from this skeleton:
 ```
-brunch new https://github.com/kursion/brunch-skeleton-larc
+brunch new . https://github.com/kursion/brunch-skeleton-larc
 ```
 
 ## Usage
