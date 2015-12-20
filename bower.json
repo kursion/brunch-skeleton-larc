@@ -1,11 +1,10 @@
 {
   "name": "brunch-skeleton-larc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
-    "lodash": "~2.4.1",
-    "jquery": "~2.1.1",
-    "react": "git://github.com/facebook/react-bower.git#~0.12.1",
-    "font-awesome": "git://github.com/components/font-awesome.git#~4.2.0"
+    "lodash": "~3.10.1",
+    "jquery": "~2.1.4",
+    "react": "git://github.com/facebook/react-bower.git#~0.14.3",
+    "font-awesome": "git://github.com/components/font-awesome.git#~4.5.0"
   }
 }
-
