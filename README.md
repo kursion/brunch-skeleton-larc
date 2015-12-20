@@ -39,7 +39,7 @@ A small skeleton for Brunch.io including:
 
 - Create the new project from this skeleton:
 ```
-brunch new . https://github.com/kursion/brunch-skeleton-larc
+brunch new -s https://github.com/kursion/brunch-skeleton-larc
 ```
 
 ## Usage
