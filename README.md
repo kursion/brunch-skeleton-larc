@@ -33,6 +33,8 @@ A small skeleton for Brunch.io including:
 ```
 ## Installation
 
+- Install [NodeJS](https://nodejs.org/en/) if it isn't done !
+
 - If you don't have brunch already: **npm install -g brunch**
 
 - If you don't have bower already: **npm install -g bower**
@@ -41,6 +43,8 @@ A small skeleton for Brunch.io including:
 ```
 brunch new -s https://github.com/kursion/brunch-skeleton-larc
 ```
+
+- Finally, copy the fonts of Font-Awesome to the asset folder `cp bower_components/font-awesome/fonts/* app/assets/fonts` (on Linux/Mac you can make use of symlinks if you prefer `ln -s`).
 
 ## Usage
 
