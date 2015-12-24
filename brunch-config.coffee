@@ -4,11 +4,11 @@ exports.config =
     javascripts:
       joinTo:
         'js/app.js': /^app/
-        'js/vendor.js': /^(bower_components|vendor\/js)/
+        'js/vendor.js': /^(bower_components|vendor[\\/]js)/
     stylesheets:
       joinTo:
-        'css/app.css': /^app\/styles/
-        'css/vendor.css': /^(bower_components|vendor\/css)/
+        'css/app.css': /^app[\\/]styles/
+	'css/vendor.css': /^(bower_components|vendor[\\/]styles)/
   plugins:
     less:
       dumpLineNumbers: "comments"
