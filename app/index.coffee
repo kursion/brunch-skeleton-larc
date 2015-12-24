@@ -3,6 +3,8 @@ console.log "js/app.js loaded !"
 # Exported module
 module.exports = exp = {}
 
+DataLoader = require("DataLoader.class")
+
 exp.main = main = () ->
   console.log "Main function launched"
 
@@ -11,6 +13,7 @@ exp.main = main = () ->
   body.find("div").replaceWith(
     $("<div/>",
       text: "jQueryLoaded but not Lodash and not ReactJS !"
+      id: "root"
       css:
         color: "orange"
     )
@@ -24,6 +27,7 @@ exp.main = main = () ->
   body.find("div").replaceWith(
     $("<div/>",
       text: "jQueryLoaded and Lodash loaded. But not ReactJS !"
+      id: "root"
       css:
         color: "orange"
     )
@@ -31,9 +35,10 @@ exp.main = main = () ->
 
   # Testing reactJS
   reactEl = React.DOM.div {
+    id: "rootl"
     style:
       color: "green"
   },
     React.DOM.i {className: "fa fa-fw fa-check"}
-    "jQuery, Lodash and ReactJS Loaded !"
-  window.app = app = React.render(reactEl, body[0])
+    "jQuery, Lodash and ReactJS Loaded! Everything is working!"
+  window.app = app = ReactDOM.render(reactEl, $("div#root")[0])

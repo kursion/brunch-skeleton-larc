@@ -8,7 +8,7 @@ exports.config =
     stylesheets:
       joinTo:
         'css/app.css': /^app[\\/]styles/
-	'css/vendor.css': /^(bower_components|vendor[\\/]styles)/
+        'css/vendor.css': /^(bower_components|vendor[\\/]styles)/
   plugins:
     less:
       dumpLineNumbers: "comments"
