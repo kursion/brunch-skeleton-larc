@@ -3,8 +3,6 @@ console.log "js/app.js loaded !"
 # Exported module
 module.exports = exp = {}
 
-DataLoader = require("DataLoader.class")
-
 exp.main = main = () ->
   console.log "Main function launched"
 
